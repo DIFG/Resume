@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: helvetica;
+    
+}
+body{
+    background-image: url(pictures/background-3.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+}
+p{
+    padding: 0;
+    margin:0;
+}
+#block-general{
+    margin-top: 1em;
+    background-color: #fffffff3;
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 0.3em;
+}
+#img-block{
+    margin-left: 1em;
+    margin-top:1em;
+    margin-bottom:1em;
+    width: 100%;
+    justify-content:center;
+    background-color: red;
+}
+#info{
+    padding-left: 5em;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+img{
+    border-radius: 3em;
+    width: auto; 
+    height: 250px;
+}
+label{
+    font-size: 20px;    
+}
+.ISC{
+    text-align: center;
+    color:rgb(49, 48, 48);
+
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 0;
+}
+.Carrier{
+    text-align: left;
+    font-size: 1em;
+    padding: 0;
+}
+.job{
+    color:rgb(49, 48, 48);
+    font-weight: bold;
+    font-size:1.2em;
+}
+.data{
+    margin-top: 1em;
+    font-weight: bold; 
+    padding: 0; 
+}
+.divisor1{
+    margin-top: 1em;
+}
+.divisor2{
+    margin-top: 2em;
+}
+.icon{
+
+    text-align: center;
+    border-radius: 3px;
+    
+    color:#004da5;
+}
+.tool{
+    color:#004da5;
+}
+.hability{
+    max-width:1000px;
+    margin: 40px auto;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+.namehability{
+    text-align: center;
+    margin-top: 0.8em;
+}
+.Act{
+    background-color: #004da5;
+    color:white;
+}
+.Date{
+    height: 2em;
+    text-align: right;
+}
+
+
+
+
+
+.progress-radial, .progress-radial * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.progress-radial {
+    float: center;
+    margin-right: 4%;
+    position: relative;
+    width: 40%;
+    border-radius: 50%;
+  }
+  .progress-radial:first-child {
+    margin-left: 4%;
+  }
+  .progress-radial .overlay {
+    position: absolute;
+    width: 80%;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    font-size: 28px;
+      top:50%;
+      left:50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  }
+  
+  .progress-radial .overlay p{
+      position: absolute;
+      line-height: 40px;
+      text-align: center;
+      width: 100%;
+      top:50%;
+      margin-top: -20px;
+  }
+.progress-80 {
+    background-image: -webkit-linear-gradient(72deg, #004da5 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #004da5 50%, #f0f0f0 50%, #f0f0f0);
+    background-image: linear-gradient(18deg, #004da5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #004da5 50%, #f0f0f0 50%, #f0f0f0);
+  }
+  .progress-80Esp {
+    background-image: -webkit-linear-gradient(72deg, #004da5 80%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #004da5 80%, #f0f0f0 80%, #f0f0f0);
+    background-image: linear-gradient(18deg, #004da5 80%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #004da5 80%, #f0f0f0 80%, #f0f0f0);
+  }
+  .progress-70 {
+    background-image: -webkit-linear-gradient(108deg, #004da5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #004da5 50%, #f0f0f0 50%, #f0f0f0);
+    background-image: linear-gradient(-18deg, #004da5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #004da5 50%, #f0f0f0 50%, #f0f0f0);
+  }
+
+.progress-50 {
+    background-image: -webkit-linear-gradient(180deg, #004da5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #004da5 50%, #f0f0f0 50%, #f0f0f0);
+    background-image: linear-gradient(-90deg, #004da5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #004da5 50%, #f0f0f0 50%, #f0f0f0);
+  }
+  .progress-60 {
+    background-image: -webkit-linear-gradient(144deg, #004da5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #004da5 50%, #f0f0f0 50%, #f0f0f0);
+    background-image: linear-gradient(-54deg, #004da5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #004da5 50%, #f0f0f0 50%, #f0f0f0);
+  }
