@@ -77,7 +77,11 @@ label{
     color:#004da5;
 }
 .tool{
-    color:#004da5;
+    color:#004da5; 
+}
+.courses{
+    text-align: center;
+    color:rgb(49, 48, 48);
 }
 .hability{
     max-width:1000px;
