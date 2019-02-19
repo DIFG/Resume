@@ -99,9 +99,22 @@ label{
     text-align: right;
 }
 
-
-
-
+.footer {
+   margin-top:1em;
+    left: 0;
+    bottom: 0;
+    font-size: 70%;
+    width: 100%;
+    background-color: #004da5;
+    color: white;
+    text-align: center;
+  }
+  .footer a{
+      color: white;
+  }
+  .footer a:hover { 
+    color: gray;
+  }
 
 .progress-radial, .progress-radial * {
 	-webkit-box-sizing: content-box;
